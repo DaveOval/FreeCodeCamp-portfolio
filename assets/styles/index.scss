@@ -1,0 +1,15 @@
+@import './components/reset/reset';
+@import './components/nav/nav';
+@import './components/header/header';
+
+h1, h2,h3, h4, p{
+    color: white;
+    font-family: monospace;
+}
+
+h1{
+    font-size: 2rem;
+}
+body{
+    background-color: #1B1B32;
+}
