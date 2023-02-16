@@ -1,0 +1,40 @@
+body{
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+h1{
+    padding-top: 40px;
+    font-size: 2.3rem;
+    color: 333232;
+}
+#main{
+    background-color: #EEEFEF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#img-div{
+    background-color: #FEFEFF;
+    margin: auto;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#image{
+    margin: auto;
+    width: 98%;
+    max-width: 1024px;
+}
+#tribute-info{
+    max-width: 500px;
+}
+ul{
+    max-width: 500px;
+}
+li{
+    padding-bottom: 15px;
+}
+.note, .sign{
+    max-width: 500px;
+}
