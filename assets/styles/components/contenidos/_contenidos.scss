@@ -32,7 +32,7 @@
         transition: all 0.5s; 
     }
     .conteidos__text{
-        visibility: hidden;
+        opacity: 0;
         position: absolute;
         background-color: #0B0A22;
         height: 151px;
@@ -40,7 +40,7 @@
         z-index: -1;
         border-radius: 40px;
         // transform: translateY(-150px);
-        transition: all 0.2s ease-in-out;
+        transition: 0.2s ease-in;
         h2{
             text-align: center;
             margin: 20px auto;
@@ -63,7 +63,7 @@
         filter: blur(2px);
     }
     .conteidos__text{
-        visibility: visible;
+        opacity: 1;
         transform: translateY(152px);
         z-index: 1;
     }
